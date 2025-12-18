@@ -14,4 +14,4 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://suresv262:predvd@cluster0.w5qug.mo
 DB_NAME = environ.get("DB_NAME", "joinrequetbot")
 
 # If this is True Then Bot Accept New Join Request 
-NEW_REQ_MODE = bool(environ.get('NEW_REQ_MODE', False))
+NEW_REQ_MODE = bool(environ.get('NEW_REQ_MODE', True))
